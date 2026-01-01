@@ -2,8 +2,8 @@ import cv2
 from ultralytics import YOLO
 
 # ================= CONFIGURATION =================
-# Path to your SEGMENTATION model (e.g., 'best-seg.pt' or 'yolov8n-seg.pt')
-MODEL_PATH = 'best_float32(2) SEGMENT.tflite'
+# Path to the model
+MODEL_PATH = 'best-segmentation.pt'
 
 # Confidence threshold (Higher = fewer hallucinations)
 CONF_THRESHOLD = 0.5

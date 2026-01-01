@@ -5,7 +5,7 @@ import math
 
 # ================= CONFIGURATION =================
 # Path to your model (change to 'best.onnx' if you want to test ONNX)
-MODEL_PATH = 'best_float32(3) OBJ DETECT.tflite'
+MODEL_PATH = 'best-objdetect-78epochs.pt'
 
 # Confidence Threshold (0.0 - 1.0)
 # Raise this to 0.5 or 0.6 if you see too many "ghost" detections on walls
